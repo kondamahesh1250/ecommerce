@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import Profile from "../pages/Profile";
-import "./UserDashboard.css"; // ✅ import CSS
+import "./UserDashboard.css";
 
 function UserDashboard() {
   const [active, setActive] = useState("view");

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import API from "../services/api";
-import "./EditProduct.css"; // ✅ import CSS
+import "./EditProduct.css";
 
 function EditProduct({ product, onClose, onUpdate }) {
   const [form, setForm] = useState(product);

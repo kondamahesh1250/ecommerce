@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../services/api";
-import "./Login.css"; // ✅ import CSS
+import "./Login.css";
 
 function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate(); // ✅ FIX (missing before)
+  const navigate = useNavigate();
 
   const login = async () => {
     try {
@@ -35,7 +35,7 @@ function Login() {
       <div className="login-box">
         <h2 className="login-title">Login</h2>
 
-        {/* NORMAL LOGIN */}
+        {/* LOGIN */}
         <input
           className="login-input"
           placeholder="Username"

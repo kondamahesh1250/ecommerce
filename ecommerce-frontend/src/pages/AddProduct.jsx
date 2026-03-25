@@ -7,7 +7,6 @@ function AddProduct() {
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [price, setPrice] = useState("");
-  const navigate = useNavigate();
 
   const addProduct = async () => {
     if (!name || !desc || !price) {
