@@ -1,0 +1,54 @@
+/* Layout */
+.admin-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 250px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+.admin-sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.admin-sidebar hr {
+  margin-bottom: 20px;
+}
+
+/* Sidebar Items */
+.admin-item {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.admin-item:hover {
+  background-color: #334155;
+}
+
+/* Active Menu */
+.active {
+  background-color: #475569;
+}
+
+/* Logout */
+.logout {
+  color: #ef4444;
+  margin-top: 20px;
+}
+
+/* Content Area */
+.admin-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f1f5f9;
+  overflow-y: auto;
+}

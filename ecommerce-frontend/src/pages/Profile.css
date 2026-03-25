@@ -1,0 +1,92 @@
+/* CONTAINER */
+.profile-container {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* TITLE */
+.profile-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* MESSAGE */
+.profile-message {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* SUCCESS / ERROR COLORS */
+.success {
+  color: #16a34a;
+}
+
+.error {
+  color: #dc2626;
+}
+
+/* SECTION */
+.profile-section {
+  margin-bottom: 25px;
+}
+
+/* LABEL */
+.profile-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+/* INPUT */
+.profile-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.profile-input:focus {
+  border-color: #3b82f6;
+}
+
+/* BUTTON */
+.profile-btn {
+  width: 100%;
+  padding: 10px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.profile-btn:hover {
+  background: #16a34a;
+}
+
+/* PASSWORD BUTTON */
+.password-btn {
+  background: #3b82f6;
+}
+
+.password-btn:hover {
+  background: #2563eb;
+}
+
+/* DIVIDER */
+.profile-divider {
+  margin: 20px 0;
+  border-top: 1px solid #ddd;
+}
