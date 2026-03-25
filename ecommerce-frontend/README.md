@@ -69,3 +69,15 @@ src/
 * HTML5 / CSS3
 * JavaScript
 * Axios (API calls)
+
+### 🔧 Testing
+
+The default user login details:
+
+For User login:
+Username: user
+Password: password
+
+For Admin login:
+Username: admin
+Password: password
