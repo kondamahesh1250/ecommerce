@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import AddProduct from "../pages/AddProduct";
 import Profile from "../pages/Profile";
-import "./AdminDashboard.css"; // ✅ import CSS
+import "./AdminDashboard.css";
 
 function AdminDashboard() {
   const [active, setActive] = useState("view");

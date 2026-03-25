@@ -27,7 +27,7 @@ This is the frontend of the E-Commerce application built using **React.js**. It 
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/ecommerce-frontend.git
+git clone https://github.com/kondamahesh1250/ecommerce.git
 cd ecommerce-frontend
 
 2. Install dependencies:
